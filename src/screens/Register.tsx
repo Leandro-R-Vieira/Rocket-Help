@@ -48,6 +48,7 @@ export function Register() {
       <Input
         placeholder='Número do Patrimônio'
         mt={4}
+        onChangeText={setPatrimony}
       />
       <Input
         placeholder='Descrição do problema'
@@ -55,6 +56,7 @@ export function Register() {
         mt={5}
         multiline
         textAlignVertical='top'
+        onChangeText={setDescription}
       />
       <Button
         title='Cadastrar'
