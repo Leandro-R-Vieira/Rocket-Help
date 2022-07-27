@@ -58,7 +58,10 @@ export function Register() {
       />
       <Button
         title='Cadastrar'
-        mt={5} />
+        mt={5} 
+        isLoading={isLoading}
+        onPress= {handleNewOrderRegister}
+      />
     </VStack>
   );
 }
