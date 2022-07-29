@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { useRoute } from '@react-navigation/native';
 import { VStack, Text } from 'native-base';
 
